@@ -1,0 +1,42 @@
+#Belajar Elif
+
+suhu = input("Masukan suhu :")
+
+if suhu >= "35":
+    print("Suhu nya panas kebangetan")
+
+elif suhu >= "25":
+    print("Suhu nya b aja")
+    
+elif suhu <= "25":
+    print("DINGIN BET")
+
+#Belajar Elif
+
+nilai = input("Masukin Nilai Lu tuh :")
+
+if nilai >= "90":
+    print("NILAI ANDA A")
+
+elif nilai >= "80":
+    print("NILAI ANDA B")
+    
+elif nilai >= "70":
+    print("NILAI ANDA C")
+else:
+    print("NILAI ANDA JAUH BGT DH")
+
+#Belajar Elif
+
+menu_pilihan = input("pilih dah serah lu :")
+
+if menu_pilihan == "1":
+    print("Anda memilih menu 1")
+
+elif menu_pilihan == "2":
+    print("Anda memilih menu 2")
+    
+if menu_pilihan == "3":
+    print("Anda memilih menu 3")
+else:
+    print("Menu tidak tersedia")
